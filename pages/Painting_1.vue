@@ -1,10 +1,6 @@
 <template>
   <div class="bg-purple-100 p-4 flex flex-col min-h-screen">
-    <UserThumbnail />
-    <div class="font-sans w-full px-4 py-5 sm:p-6 text-center text-3xl">
-      When beauty creates beauty
-    </div>
-    <CardHolder />
+    <CardHolder1 />
   </div>
 </template>
 
@@ -33,5 +29,8 @@ export default {
 <style scoped>
 .backdrop {
   background: url("/img/Canvas_Image.jpg");
+}
+.paint-icon {
+  background: url("/favicon.ico");
 }
 </style>
